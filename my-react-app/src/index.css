@@ -8,6 +8,8 @@ body{
   text-align: center;
   margin-top: 100px;
   background-color: #A1E3F9;
+  border: black solid 7px;
+  border-radius: 5px;
 }
 h1 {
   font-size: 4rem;
@@ -26,6 +28,9 @@ button {
 
 .add-button {
   background-color: #3674B5;
+  &:hover{
+    background-color: #26507e;
+  }
 }
 
 .delete-button {
@@ -45,7 +50,8 @@ input[type="text"]{
   border: 2px solid black;
   border-radius: 5px;
   color: hsla(0, 0%, 0%, 0.5);
-
+  margin-bottom: 20px;
+  margin-right: 10px;
 }
 ol{
   padding: 0;
