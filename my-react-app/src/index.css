@@ -78,3 +78,7 @@ li{
   margin-left: 10px;
 
 }
+.text.done {
+  text-decoration: line-through;
+  color: gray;
+}
